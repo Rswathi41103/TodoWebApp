@@ -117,3 +117,7 @@
 .checked {
     text-decoration: line-through;
 }
+
+.delete{
+    cursor:pointer;
+}

@@ -122,7 +122,7 @@ function createAndAppendTodo(todo) {
     labelContainer.appendChild(labelElement);
 
     let deleteIconContainer = document.createElement("div");
-    deleteIconContainer.classList.add("delete-icon-container");
+    deleteIconContainer.classList.add("delete-icon-container","delete");
     labelContainer.appendChild(deleteIconContainer);
 
     let deleteIcon = document.createElement("i");
